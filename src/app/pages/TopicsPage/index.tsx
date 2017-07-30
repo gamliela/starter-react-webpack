@@ -1,11 +1,11 @@
 import * as React from "react";
 import {observer} from "mobx-react";
+import {Route, RouteComponentProps} from "react-router";
 import {Link} from "react-router-dom";
-import {Route} from "react-router";
 import TopicPage from "../TopicPage";
 
 @observer
-export default class TopicsPage extends React.Component<{ match: any }> {      // TODO: any??
+export default class TopicsPage extends React.Component<RouteComponentProps<void>> {
     render() {
         return (
             <div>
