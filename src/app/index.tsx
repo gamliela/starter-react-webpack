@@ -2,7 +2,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import {useStrict} from "mobx";
 import {AppManager} from "./AppManager";
-import MainPage from "./pages/MainPage/index";
+import App from "./App";
 
 // mobx configuration
 useStrict(true);
@@ -11,5 +11,5 @@ useStrict(true);
 const appManager: AppManager = new AppManager();
 
 ReactDOM.render(
-    <MainPage appManager={appManager}/>,
+    <App appManager={appManager}/>,
     document.getElementById('app-root'));
