@@ -1,22 +1,22 @@
 import * as React from "react";
 import {observer} from "mobx-react";
 import style from "./style.scss";
-import {AppManager} from "../../AppManager";
+import {AppModel} from "../../AppModel";
 
 export interface MainPageProps {
-  appManager: AppManager;
+  appModel: AppModel;
 }
 
 @observer
 export default class MainPage extends React.Component<MainPageProps> {
   render() {
-    const appManager = this.props.appManager;
+    const appModel = this.props.appModel;
     return (
       <div>
         <h1 className={style.header}>
           Hello World!
         </h1>
-        <span>version: {appManager.version}</span>
+        <span>version: {appModel.version}</span>
       </div>
     );
   }

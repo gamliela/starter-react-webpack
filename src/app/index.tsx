@@ -1,11 +1,11 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import {AppManager} from "./AppManager";
+import {AppModel} from "./AppModel";
 import MainPage from "./pages/MainPage/index";
 
-// create our app manager
-const appManager: AppManager = new AppManager();
+// create our app model
+const appModel: AppModel = new AppModel();
 
 ReactDOM.render(
-  <MainPage appManager={appManager}/>,
+  <MainPage appModel={appModel}/>,
   document.getElementById('app-root'));
