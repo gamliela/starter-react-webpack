@@ -11,12 +11,12 @@ This kit consists of the latest versions of:
 
 #### Build Instructions
 
-`npm install`
+`yarn install`
 
-`npm build`
+`yarn build`
 
 The output goes to `/build/bundle.js` & `/build/index.html`
 
 #### Development Server
 
-`npm dev-server`
+`yarn run dev-server`

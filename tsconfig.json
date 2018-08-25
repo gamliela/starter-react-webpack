@@ -3,8 +3,7 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "jsx": "react",
-    "noImplicitAny": true,
-    "target": "es5",
+    "target": "es6",
     "module": "es6",
     "moduleResolution": "node"
   },
