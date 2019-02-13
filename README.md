@@ -13,7 +13,7 @@ This kit consists of the latest versions of:
 
 `yarn install`
 
-`yarn build`
+`yarn run build`
 
 The output goes to `/build/bundle.js` & `/build/index.html`
 
