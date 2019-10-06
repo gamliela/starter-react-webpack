@@ -10,7 +10,5 @@
     "moduleResolution": "node",
     "outDir": "out_tsc"
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }

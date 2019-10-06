@@ -1,4 +1,4 @@
-import {configure} from "mobx";
+import { configure } from "mobx";
 import "./App";
 
-configure({enforceActions: "observed"});
+configure({ enforceActions: "observed" });
