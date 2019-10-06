@@ -1,11 +1,4 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-import {AppModel} from "./AppModel";
-import MainPage from "./pages/MainPage/index";
+import {configure} from "mobx";
+import "./App";
 
-// create our app model
-const appModel: AppModel = new AppModel();
-
-ReactDOM.render(
-  <MainPage appModel={appModel}/>,
-  document.getElementById('app-root'));
+configure({enforceActions: "observed"});

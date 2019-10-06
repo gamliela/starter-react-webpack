@@ -13,10 +13,10 @@ This kit consists of the latest versions of:
 
 `yarn install`
 
-`yarn run build`
+`yarn build`
 
 The output goes to `/build/bundle.js` & `/build/index.html`
 
 #### Development Server
 
-`yarn run dev-server`
+`yarn start`
