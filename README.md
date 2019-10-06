@@ -15,20 +15,27 @@ This kit consists of the latest versions of:
 
 #### Build Instructions
 
-`yarn install`
-
-`yarn build`
+```
+$ yarn install
+$ yarn build
+```
 
 The output goes to `/build/bundle.js` & `/build/index.html`
 
-#### Development Server
+#### Start Development Server
 
-`yarn start`
+```
+$ yarn start
+```
 
-#### ESLint
+#### Lint with ESLint
 
-`yarn lint`
+```
+$ yarn lint
+```
 
-#### Prettier
+#### Prettify with Prettier
 
-`yarn prettify`
+```
+$ yarn prettify
+```
