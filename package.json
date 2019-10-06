@@ -33,7 +33,7 @@
   },
   "scripts": {
     "build": "webpack --config webpack/webpack.config.js",
-    "lint": "eslint './**/*.{ts,tsx}'",
+    "lint": "eslint './**/*.{ts,tsx,js,jsx}'",
     "start": "webpack-dev-server --config webpack/webpack.config.js"
   }
 }
