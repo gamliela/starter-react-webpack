@@ -8,6 +8,7 @@ This kit consists of the latest versions of:
 * SCSS
 * CSS Modules
 * TypeScript
+* ESLint (with `react-hooks` plugin)
 
 #### Build Instructions
 
@@ -20,3 +21,7 @@ The output goes to `/build/bundle.js` & `/build/index.html`
 #### Development Server
 
 `yarn start`
+
+#### ESLint
+
+`yarn lint`

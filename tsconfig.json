@@ -10,9 +10,6 @@
     "moduleResolution": "node",
     "outDir": "out_tsc"
   },
-  "files": [
-    "./config/typescript.config.ts"
-  ],
   "include": [
     "src/**/*"
   ]
