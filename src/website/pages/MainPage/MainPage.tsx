@@ -7,17 +7,14 @@ interface MainPageProps {
   websiteModel: WebsiteModel;
 }
 
-@observer
-class MainPage extends React.Component<MainPageProps> {
-  render() {
-    const websiteModel = this.props.websiteModel;
-    return (
-      <div>
-        <h1 className={style.header}>Hello World!</h1>
-        <span>version: {websiteModel.version}</span>
-      </div>
-    );
-  }
-}
+const MainPage = observer(function(props: MainPageProps) {
+  const websiteModel = props.websiteModel;
+  return (
+    <div>
+      <h1 className={style.header}>Hello World!</h1>
+      <span>version: {websiteModel.version}</span>
+    </div>
+  );
+});
 
 export { MainPageProps, MainPage };
