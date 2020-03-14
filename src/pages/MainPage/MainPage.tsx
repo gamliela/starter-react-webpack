@@ -1,7 +1,7 @@
 import * as React from "react";
 import { observer } from "mobx-react";
-import style from "./style.scss";
 import { WebsiteModel } from "../../WebsiteModel";
+import style from "./style.scss";
 
 interface MainPageProps {
   websiteModel: WebsiteModel;

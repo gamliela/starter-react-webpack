@@ -5,10 +5,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const projectPath = path.resolve(__dirname, "..");
 const buildPath = path.join(projectPath, "build");
 const srcPath = path.join(projectPath, "src");
-const websitePath = path.join(srcPath, "website");
 
 const config = {
-  entry: path.join(websitePath, "pages", "index.tsx"),
+  entry: path.join(srcPath, "pages", "index.tsx"),
   output: {
     filename: "bundle.js",
     path: buildPath,
@@ -49,7 +48,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(websitePath, "pages", "index.html"),
+      template: path.join(srcPath, "pages", "index.html"),
     }),
   ],
   devServer: {
