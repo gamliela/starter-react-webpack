@@ -1,7 +1,7 @@
 import { observable } from "mobx";
 
-class AppModel {
+class WebsiteModel {
   @observable version = "1.0.0";
 }
 
-export { AppModel };
+export { WebsiteModel };

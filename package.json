@@ -1,7 +1,7 @@
 {
   "name": "starter-react-mobx-css-modules",
   "version": "1.0.0",
-  "main": "src/index.jsx",
+  "main": "src/website/pages/index.tsx",
   "repository": "https://github.com/gamliela/starter-react-mobx-css-modules.git",
   "author": "Alon Gamliel <alon@gamliela.com>",
   "license": "Apache-2.0",
