@@ -1,20 +1,17 @@
 import * as React from "react";
-import { observer } from "mobx-react";
-import { WebsiteModel } from "../../WebsiteModel";
 import style from "./style.scss";
 
 interface MainPageProps {
-  websiteModel: WebsiteModel;
+  version: string;
 }
 
-const MainPage = observer(function(props: MainPageProps) {
-  const websiteModel = props.websiteModel;
+const MainPage = function(props: MainPageProps) {
   return (
     <div>
       <h1 className={style.header}>Hello World!</h1>
-      <span>version: {websiteModel.version}</span>
+      <span>version: {props.version}</span>
     </div>
   );
-});
+};
 
 export { MainPageProps, MainPage };

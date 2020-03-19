@@ -1,31 +1,21 @@
-# starter-react-mobx-css-modules
+# starter-react-webpack
 
-My starter kit for projects based on React, MobX, CSS Modules and TypeScript.
+My starter kit for projects based on React and Webpack.
 
 This kit consists of the latest versions of:
 
 - React
+- TypeScript
 - Webpack
-- MobX
 - SCSS
 - CSS Modules
-- TypeScript
 - ESLint (with `react-hooks` plugin)
 - Prettier
-
-#### Build Instructions
-
-```
-$ yarn install
-$ yarn build
-```
-
-The output goes to `/build/bundle.js` & `/build/index.html`
 
 #### Start Development Server
 
 ```
-$ yarn start
+$ yarn dev
 ```
 
 #### Lint with ESLint
@@ -39,3 +29,11 @@ $ yarn lint
 ```
 $ yarn prettify
 ```
+
+#### Build Instructions
+
+```
+$ yarn build
+```
+
+The output goes to `/build/bundle.js` & `/build/index.html`

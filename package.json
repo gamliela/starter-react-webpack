@@ -1,13 +1,11 @@
 {
-  "name": "starter-react-mobx-css-modules",
+  "name": "starter-react-webpack",
   "version": "1.0.0",
   "main": "src/pages/index.tsx",
-  "repository": "https://github.com/gamliela/starter-react-mobx-css-modules.git",
+  "repository": "https://github.com/gamliela/starter-react-webpack.git",
   "author": "Alon Gamliel <alon@gamliela.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "mobx": "5.15.4",
-    "mobx-react": "6.1.8",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   },
@@ -34,8 +32,8 @@
   },
   "scripts": {
     "build": "webpack --config webpack/webpack.config.js",
-    "lint": "eslint './**/*.{ts,tsx,js,jsx}'",
-    "prettify": "prettier --write './**/*.{ts,tsx,js,jsx,json,md}'",
-    "start": "webpack-dev-server --config webpack/webpack.config.js"
+    "dev": "webpack-dev-server --config webpack/webpack.config.js",
+    "lint": "eslint --ignore-path .gitignore './**/*.{ts,tsx,js,jsx}'",
+    "prettify": "prettier --ignore-path .gitignore --write './**/*.{ts,tsx,js,jsx,json,md}'"
   }
 }

@@ -8,7 +8,12 @@
     "target": "es6",
     "module": "es6",
     "moduleResolution": "node",
+    "lib": ["dom"],
+    "allowJs": false,
+    "skipLibCheck": false,
+    "strict": true,
     "outDir": "out_tsc"
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
